@@ -1,0 +1,40 @@
+.popularRestaurantsWrapper {
+  margin-top: 140px;
+  .popularHeader {
+    font-size: 30px;
+    font-weight: 100;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: 1.25px;
+    text-align: center;
+    color: $BLACK;
+  }
+
+  .cardsWrapper {
+    margin: 0 auto;
+    .card {
+      margin-right: 11px;
+      width: 360px;
+      padding: 0;
+      .card-content {
+        background-color: $LIGHT_ORANGE;
+      }
+    }
+  }
+  
+  .allRestaurantsLink {
+    .h6 {
+      width: 233px;
+      height: 35px;
+      margin: 0 12px 0 0;
+      font-size: 30px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: 2px;
+      text-align: center;
+    }
+  }
+}

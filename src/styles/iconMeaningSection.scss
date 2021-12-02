@@ -1,0 +1,13 @@
+.iconMeaningWrapper {
+  width: 100%;
+  background-color: #fafafa;
+  height: 265px;
+  margin: 87px 0 100px;
+  padding: 41px 483px 41px 485px;
+  .container {
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+}

@@ -1,0 +1,29 @@
+.restDashboardWrapper {
+  .filterLinksWrapper {
+    .filterLinks {
+      display: flex;
+      justify-content: space-around;
+
+      li {
+        font-size: 19px;
+        font-weight: 100;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: 2.03px;
+        color: $BLACK;
+      }
+    }
+  }
+  .restDashCardWrapper {
+    .restDashCard {
+      width: 342px;
+      object-fit: contain;
+      margin-right: 11px;
+      padding: 0;
+      .card-content {
+        background-color: $LIGHT_ORANGE;
+      }
+    }
+  }
+}

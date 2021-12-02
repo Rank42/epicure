@@ -1,0 +1,33 @@
+.heroWrapper {
+  background-image: url("../assets/img/hero-picture.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 696px;
+  padding-left: 310px;
+  padding-top: 200px;
+  padding-bottom: 240px;
+  padding-right: 329px;
+  .searchBox {
+    width: 781px;
+    height: 222px;
+    background-color: rgba(255, 255, 255, 0.88);
+    h2 {
+      font-weight: 100;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1;
+      letter-spacing: 1.97px;
+      text-align: center;
+      font-size: 35px;
+      margin: 41px 170px 0px 174px;
+    }
+    .Search-Field {
+      width: 511px;
+      height: 48px;
+      margin: 18px 0 0;
+      object-fit: contain;
+      border-radius: 4px;
+    }
+  }
+}

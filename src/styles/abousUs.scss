@@ -1,0 +1,100 @@
+.aboutUsWrapper {
+  width: 100%;
+  height: 526px;
+  margin: 117px 0 1px;
+  padding: 65px 20px 61px 40px;
+  opacity: 0.9;
+  background-color: #fafafa;
+  .aboutUsTitle {
+    width: 178px;
+    height: 35px;
+    margin: 0 571px 20px 35px;
+    font-family: HelveticaNeue;
+    font-size: 30px;
+    font-weight: 100;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.89px;
+    text-align: center;
+    color: $BLACK;
+  }
+  .aboutUsDescription {
+    width: 567px;
+    height: 269px;
+    margin: 20px 182px 23px 35px;
+    font-family: HelveticaNeue;
+    font-size: 22px;
+    font-weight: 100;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.69px;
+    text-align: justify;
+    color: $BLACK;
+  }
+  .logoWrapper {
+    .epicureLogo {
+      margin-top: 20%;
+    }
+  }
+  .downloadIcons {
+    display: flex;
+    margin-left: 30px;
+    .appleIconWrapper {
+      width: 181.4px;
+      height: 52.8px;
+      padding: 8px 11.7px 7.4px 10.5px;
+      border-radius: 9.6px;
+      margin-right: 15.1px;
+      border: solid 0.6px $BLACK;
+      display: flex;
+      .appleText {
+        display: flex;
+        flex-direction: column;
+        height: 36px;
+        margin-left: 12px;
+        font-family: HelveticaNeue;
+        font-size: 13.2px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: 1.29px;
+        text-align: center;
+        color: $BLACK;
+        .bigText {
+          font-size: 16.9px;
+          font-weight: 500;
+        }
+      }
+    }
+    .playIconWrapper {
+      width: 181.2px;
+      height: 52.6px;
+      padding: 7.2px 17.6px 8.4px 15px;
+      border-radius: 9.6px;
+      border: solid 0.6px $BLACK;
+      display: flex;
+      .playText {
+        display: flex;
+        flex-direction: column;
+        height: 36px;
+        margin-left: 12px;
+        font-family: HelveticaNeue;
+        font-size: 13.2px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: 1.29px;
+        text-align: center;
+        color: $BLACK;
+        .bigText {
+          font-size: 16.9px;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+}

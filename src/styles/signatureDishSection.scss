@@ -1,0 +1,51 @@
+.signatureDishesWrapper {
+  .container {
+    .signatureDishes {
+      .signatureDishCard {
+        margin-right: 11px;
+        width: 360px;
+        padding: 0;
+        .card-content {
+          height: 364px;
+          background-color: rgba(232, 196, 122, 0.2);
+          .dishIcon {
+            height: 30px;
+            object-fit: contain;
+            position: absolute;
+            bottom: 35px;
+            right: 50%;
+          }
+          .bottomSection {
+            position: absolute;
+            bottom: 20px;
+            width: 90%;
+            .priceWrapper {
+              display: flex;
+              flex-direction: row;
+              justify-content: space-around;
+              .price {
+                .priceText {
+                  width: 32px;
+                  height: 29px;
+                  font-family: HelveticaNeue;
+                  font-size: 24.9px;
+                  font-weight: 100;
+                  font-stretch: normal;
+                  font-style: normal;
+                  line-height: normal;
+                  letter-spacing: 1.66px;
+                  color: $BLACK;
+                }
+              }
+              .line {
+                width: 112px;
+                height: 1px;
+                border: solid 0.5px #979797;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

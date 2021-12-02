@@ -1,0 +1,44 @@
+.navbar-fixed {
+  height: 53px;
+  margin-bottom: 8px;
+  nav {
+    background-color: $WHITE;
+    box-shadow: none;
+    .nav-wrapper {
+      margin-left: 123px;
+      .leftNav {
+        display: flex;
+        .logo {
+          .logoText {
+            color: $BLACK;
+            width: 115px;
+            height: 32px;
+            margin: 1px 31px 1px 15px;
+            font-size: 27px;
+            font-weight: 100;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: 1.35px;
+          }
+          img {
+            align-self: center;
+            margin-right: 15px;
+          }
+        }
+        a {
+          color: $BLACK;
+        }
+      }
+      .rightNav {
+        margin-right: 123px;
+        display: flex;
+        align-items: center;
+        margin-top: 0.8%;
+        .navIcon {
+          margin-right: 28px;
+        }
+      }
+    }
+  }
+}
